@@ -12,6 +12,7 @@ This includes scheduling appointments, viewing the schedule of appointments, and
 includes the name, purpose, data, and time of the appointment.
 
 IPO
+
 Input:
 User is prompted to select an action from a menu: schedule an appointment, view scheduled appointments, or exit the program.
 If the user selects "schedule an appointment", they are prompted to enter the name, purpose, date, and time of the appointment.
