@@ -1,3 +1,4 @@
+# IPO DEMETER PROJECT - COMPROG
 IPO
 
 Input: User is prompted to select an action from a menu: schedule an appointment, view scheduled appointments, or exit the program. 
