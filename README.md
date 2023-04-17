@@ -1,7 +1,6 @@
 # Demeter Project - COMPROG
 Laboratory Project
 
-Price Scheduling Management System
 Barangay Scheduling Management System
 
 Project Description:
