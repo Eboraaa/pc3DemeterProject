@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define MAX_APPOINTMENTS 100
+#define MAX_APPOINTMENTS 50
 
     struct {
     char name[50];
@@ -13,7 +13,7 @@ int main() {
     int choice, num_appointments = 0;
     Appointment appointments[MAX_APPOINTMENTS];
 
-    while (1) {
+    while {
         printf("\n1. Schedule an appointment\n");
         printf("2. View scheduled appointments\n");
         printf("3. Exit\n");
