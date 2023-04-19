@@ -4,15 +4,36 @@ John Daryl D. Ebora
 Allyssa Marie J. Tubello
 Reggie Mar G. Cantilado
 
-PROJECT DESCRIPTION
-Laboratory Project
-
-Barangay Appointment Management System
-
-Project Description:
+I.PROJECT DESCRIPTION 
 
 The “Barangay Appointment Management System” is a website or an app that could help in making appointments in the Barangay. 
 In this program the user is prompted to select an action from a menu: schedule an appointment, view scheduled appointments, 
 or exit the program. If the user selects "schedule an appointment", they are prompted to enter the name, purpose, date, and 
 time of the appointment. With these, conducting and managing appointments would be easier and more organized.
 
+II. IPO
+
+Input: User is prompted to select an action from a menu: schedule an appointment, view scheduled appointments, or exit the program.
+If the user selects "schedule an appointment", they are prompted to enter the name, purpose, date, and time of the appointment.
+
+Process: The program stores the inputted appointment details into a struct. The program adds the struct to an array of appointments.
+
+Output: If the appointment is successfully added, the program outputs a success message. If the appointment cannot be added because 
+the array of appointments is full, the program outputs a message indicating this. If the user chooses to view appointments, the program
+outputs the name, purpose, date, and time of all appointments in the array.
+
+III. METHODOLOGY
+
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2023-04-19T09:37:44.376Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 
+(KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="7STjqVBSGf2VOXZI3d9r" version="21.1.9" type="google"><diagram id="C5RBs43oDa-KdzZeNtuy"
+name="Page-1">5VpbW5swGP41vXQPCZS2l1oPc+rmVrXzak8sKWQCwRBsu1+/UAIU0pNWCupNH/Lx5fR+73dIaEvve9MzhgLnilrYbUHNmrb04xaE3a4mfmPBLBEYhpEIbEasRARywYD8w1Io+
+9kRsXBYUOSUupwEReGI+j4e8YIMMUYnRbUxdYuzBsjGimAwQq4qHRKLO3JbsJPLv2JiO+nMwOwlbzyUKsudhA6y6GRBpJ+09D6jlCdP3rSP3Ri7FJfh+WzoXj6aZ99+hk/o9uji5vvdQTLY6Uu6
+ZFtg2OevHtp4uvL/XPTJj+tz4+bX8+SeRfBAovCM3EjiJffKZymA2BJ4yiZl3KE29ZF7kkuPGI18C8fTaKKV61xSGgghEMK/mPOZJAeKOBUih3uufJvMGU9UstmGDUu9kEZshNfo6ZJ3iNmYr0
+HDyKwqvAFTD3M2E/0YdhEnz8XFIclLO9PLsRcPEv4XmKL7mZEHe0J+3SIXnGCI3ZEYPB4WagOxeq4YJ4c+xnHiEI4HAZqDMRGBtAjzmPpc2gCIfR7ZLgpDabWQM/qYxaZYOws0WmahbQ3yjBnH0
+wW4VEzTt6YMazKup3F+kgdJkEY+ZyFAGlpF/If6R3QAALf0gFXm2k/wgWYd4AuI2ex33P9LO23ey+HmjeNpoTUr+EQTjKbtaLR510PG0GxBIaDE5+HCyNexIHfdrCKRrqubpcxf0gdgrb54SFaQ
+0yfbyg6M6nxud4bvgRm6Xi0z1mK4kG8HIwdbkaAAFEOayIvTp/8QBnOLmq4A+uiBiSc7frojeJIoll6cTMnHz9Owt2WiNqtK1Gk0+XS5YnXlukVA6NWZ3lPWLXgcsX0huQ1Uh3Go9xCFm51lBZ
+O3xXYl42GJ8aCjMr67hPDdqghvKui989RWyeF3u4yUha90iMRxZK+Sod6gDDFWMf/cbx7zy4Va7cwH7VpDPSgE+jzu1xTqe2qoX1Pg1BXrewrjzwTaxLc3V1bn/pgyT6yRqs6xwSVQGCS3t2Myj
+W1fmY/o7VJAMer2kV695VCzfAQsqYeqcZLXHZCK5GmD9eej8nEK7uHgDNRirc8w4uJwpP3CTxEJSeKgYngt8+nkV3XpwyBgVAylJruXnIuqcmajiK+x5BKyt9ejjXoVvPuhsrJICBqGng4UoD5A
+XQwqKoyXR6J91cVALYwvSRivj47Fjwgb8cweltG0eewHnXYRwHbN7Ie1fMBr6rVISu/NX/7q/e6hKW6Q30U2kfbdUkWy5DbQXML66r7a1VL9Vs7ebW/1dk4Ou4GvlorJ5XgTmQt6DaNu+u3jg1E
+XbktdvVbqQrX+EEhGogI5lTd080YTmaxrm5nceRsmi2b+B7Ok9sv/paef/Ac=</diagram></mxfile>
